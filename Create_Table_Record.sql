@@ -1,6 +1,7 @@
 CREATE TABLE `Records`
 (
   `RecordId` bigint NOT NULL AUTO_INCREMENT,
+  `Time` bigint NOT NULL,
   `DeviceId` varchar(16) NOT NULL,
   `TDS` integer unsigned NOT NULL,
   `TBD` integer unsigned NOT NULL,
